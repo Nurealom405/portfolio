@@ -63,27 +63,46 @@ nav li {
   background-position: bottom right, left;
 }
 /* Main section */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 /* About section Styles */
-.about{
-    background: #FFF8F3;
-    border-radius: 10px;
-    margin-top: 130px;
-    padding: 130px 156px;
+.about {
+  background: #fff8f3;
+  border-radius: 10px;
+  margin-top: 130px;
+  padding: 130px 156px;
+  text-align: center;
 }
-.section-title{
-    font-weight: 700;
-    font-size: 35px;
-    text-align: center;
-    margin-bottom: 30px;
+.section-title {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 30px;
+  text-align: center;
 }
-.section-description{
-    font-weight: 400;
-    font-size: 18px;
-    text-align: center;
-    color: #757575;
-    margin-bottom: 30px;
+.section-description {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+/* about-info-container sytles */
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-title {
+  color: #757575;
+  font-size: 20px;
+}
+.about-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+  padding-right: 50px;
 }
