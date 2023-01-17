@@ -100,9 +100,22 @@ main {
   color: #757575;
   font-size: 20px;
 }
-.about-description {
+.about-description{
   font-weight: 700;
   font-size: 20px;
   color: #474747;
   padding-right: 50px;
+}
+
+/* What I dow styles */
+.section-title {
+  margin-top: 130px;
+  font-weight: 700;
+  font-size: 35px;
+}
+.what-i-do-description{
+    font-size: 18px;
+    color: #474747;
+    padding-right: 30px 346px 50px 346px;
+    text-align: center;
 }
