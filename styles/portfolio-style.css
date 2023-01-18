@@ -100,7 +100,7 @@ main {
   color: #757575;
   font-size: 20px;
 }
-.about-description{
+.about-description {
   font-weight: 700;
   font-size: 20px;
   color: #474747;
@@ -113,9 +113,27 @@ main {
   font-weight: 700;
   font-size: 35px;
 }
-.what-i-do-description{
-    font-size: 18px;
-    color: #474747;
-    padding-right: 30px 346px 50px 346px;
-    text-align: center;
+.what-i-do-description {
+  font-size: 18px;
+  color: #474747;
+  padding-right: 30px 346px 50px 346px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 25px;
 }
